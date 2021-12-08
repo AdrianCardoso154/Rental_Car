@@ -1,6 +1,6 @@
 package modal.services;
 
-public class BrasilTaxServices implements TaxService {
+public class BrasilTaxServices {
 	public double tax (double amount) {
 		if(amount <= 100) {
 			return amount*0.2;
